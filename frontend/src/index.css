@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "black";
+  default: true;
+
+  /* Base (equivalent to ...daisyUIThemes["black"]) */
+  --color-base-100: #000000;
+  --color-base-200: #16181c;
+  --color-base-300: #2f3336;
+  --color-base-content: #e7e9ea;
+
+  /* Custom overrides */
+  --color-primary: rgb(29, 155, 240);
+  --color-primary-content: #ffffff;
+
+  --color-secondary: rgb(24, 24, 24);
+  --color-secondary-content: #ffffff;
+}
